@@ -267,7 +267,7 @@ A separate technical review also identifies two issues worth correcting in a fut
 - `Q1.m` consumes one stochastic trial only to obtain the time-vector size, so its displayed 100 trials are not exactly the same 100-trial sequence used by `Q2.m`/`Q3.m`, despite the comment suggesting they are.
 - `Q8.m` uses a logarithmic coherence axis while the data vector contains 0% coherence. The 0% point is therefore not actually plotted at its true x-coordinate; a public-facing revision should use a linear axis or an explicit transformed coordinate.
 
-See [`docs/Assessment_And_Technical_Notes.md`](docs/Assessment_And_Technical_Notes.md).
+See [`docs/Assessment_and_Technical_Notes.md`](docs/Assessment_and_Technical_Notes.md).
 
 ## References
 
